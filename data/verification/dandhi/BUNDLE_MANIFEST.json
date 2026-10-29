@@ -1,0 +1,236 @@
+{
+  "study": "Date Palm",
+  "component": "Dandhi candidate checkpoint inference",
+  "status": "PASS_DANDHI_CANDIDATE_PROBABILITY_REPLAY",
+  "training_executed": false,
+  "parity_mismatches": {
+    "locked_test_candidate_grade_mismatches": 0,
+    "locked_test_candidate_confidence_10_mismatches": 0,
+    "locked_test_candidate_OR_5_5_mismatches": 0,
+    "locked_test_C11_10_mismatches": 0
+  },
+  "probability_validation": {
+    "calibration": {
+      "status": "PASS",
+      "rows": 1668,
+      "sha256": "10f5e52486cfe4d2ec7f2037beb5b622af08006f9fe29d4f7aff931aa5586b95",
+      "unique_sample_ids": true,
+      "max_probability_sum_error": 1.4086253918854652e-07
+    },
+    "locked_test": {
+      "status": "PASS",
+      "rows": 12510,
+      "sha256": "9a5b21260ff6040a08a5d9d24687ba1a75e1f77505d8903e31f56fd5d727cb03",
+      "unique_sample_ids": true,
+      "max_probability_sum_error": 1.4086253918854652e-07
+    }
+  },
+  "file_count": 34,
+  "total_uncompressed_bytes": 2853103,
+  "files": [
+    {
+      "archive_path": "DatePalm_Dandhi_Replay_20261025T165206634656Z/CANDIDATE_PROBABILITY_PARITY.json",
+      "size_bytes": 2552,
+      "sha256": "65616d4ac21d1b043d1822a224d97146da75e0d90db6151e5bfc82544a6f4601",
+      "linked_cache_block": false
+    },
+    {
+      "archive_path": "DatePalm_Dandhi_Replay_20261025T165206634656Z/candidate_probabilities_calibration.csv",
+      "size_bytes": 271466,
+      "sha256": "10f5e52486cfe4d2ec7f2037beb5b622af08006f9fe29d4f7aff931aa5586b95",
+      "linked_cache_block": false
+    },
+    {
+      "archive_path": "DatePalm_Dandhi_Replay_20261025T165206634656Z/candidate_probabilities_locked_test.csv",
+      "size_bytes": 2300211,
+      "sha256": "9a5b21260ff6040a08a5d9d24687ba1a75e1f77505d8903e31f56fd5d727cb03",
+      "linked_cache_block": false
+    },
+    {
+      "archive_path": "DatePalm_Dandhi_Replay_20261025T165206634656Z/development_only_selection.json",
+      "size_bytes": 1481,
+      "sha256": "a522bcc729e007b6fbec15ef5d69cf416db0b3f023cbb2960a0dba587d748afb",
+      "linked_cache_block": false
+    },
+    {
+      "archive_path": "DatePalm_Dandhi_Replay_20261025T165206634656Z/rgb_prediction_cache/calibration/block_000000_000128.npz",
+      "size_bytes": 10000,
+      "sha256": "8e4af27236c0d33b909cdf575ac2a4175ccaa569aa277f86a80344b7ea0e3fb8",
+      "linked_cache_block": true
+    },
+    {
+      "archive_path": "DatePalm_Dandhi_Replay_20261025T165206634656Z/rgb_prediction_cache/calibration/block_000128_000256.npz",
+      "size_bytes": 10033,
+      "sha256": "fdc1af06e9dab7973c65d378cb59b88714562918fcb47ef74d1a26096ae1d0bf",
+      "linked_cache_block": true
+    },
+    {
+      "archive_path": "DatePalm_Dandhi_Replay_20261025T165206634656Z/rgb_prediction_cache/calibration/block_000256_000384.npz",
+      "size_bytes": 10014,
+      "sha256": "0d23714799399620f4d59f848e1116d8b5bd3721035f7c43a11c51cb73a38db2",
+      "linked_cache_block": true
+    },
+    {
+      "archive_path": "DatePalm_Dandhi_Replay_20261025T165206634656Z/rgb_prediction_cache/calibration/block_000384_000435.npz",
+      "size_bytes": 4687,
+      "sha256": "93e8d16d7527cd50a9746360e9d83c71b136ee3545886751e3ed674c5cc27dba",
+      "linked_cache_block": true
+    },
+    {
+      "archive_path": "DatePalm_Dandhi_Replay_20261025T165206634656Z/rgb_prediction_cache/locked_test/block_000000_000128.npz",
+      "size_bytes": 9467,
+      "sha256": "48613bdf8a67f4bb23cbe93f4ef9d2b6bb83ea752034260fd21487f3399e4f7c",
+      "linked_cache_block": true
+    },
+    {
+      "archive_path": "DatePalm_Dandhi_Replay_20261025T165206634656Z/rgb_prediction_cache/locked_test/block_000128_000256.npz",
+      "size_bytes": 9506,
+      "sha256": "81093665791589c57a576d146f50d9826b41065f575d61f9ca8510b29853b218",
+      "linked_cache_block": true
+    },
+    {
+      "archive_path": "DatePalm_Dandhi_Replay_20261025T165206634656Z/rgb_prediction_cache/locked_test/block_000256_000384.npz",
+      "size_bytes": 9481,
+      "sha256": "aef2389e3fabd1cf2a433ad49d685d22d01a70a335fcc77410e9d35a5d884a3d",
+      "linked_cache_block": true
+    },
+    {
+      "archive_path": "DatePalm_Dandhi_Replay_20261025T165206634656Z/rgb_prediction_cache/locked_test/block_000384_000512.npz",
+      "size_bytes": 9487,
+      "sha256": "cb2793516cb4b1c2f38016c9a07e48dc1d2afb9b259a20bfc56e115579d8c6d3",
+      "linked_cache_block": true
+    },
+    {
+      "archive_path": "DatePalm_Dandhi_Replay_20261025T165206634656Z/rgb_prediction_cache/locked_test/block_000512_000640.npz",
+      "size_bytes": 9436,
+      "sha256": "964980c7f060cb9fab8dd1bf3dd06f1897fc8dc6c99b986f8768a802daf76c49",
+      "linked_cache_block": true
+    },
+    {
+      "archive_path": "DatePalm_Dandhi_Replay_20261025T165206634656Z/rgb_prediction_cache/locked_test/block_000640_000768.npz",
+      "size_bytes": 9462,
+      "sha256": "ac202fcf742339d85a21aca8ea767edf40076abcc1510781c51cdbdac8c11b91",
+      "linked_cache_block": true
+    },
+    {
+      "archive_path": "DatePalm_Dandhi_Replay_20261025T165206634656Z/rgb_prediction_cache/locked_test/block_000768_000896.npz",
+      "size_bytes": 9434,
+      "sha256": "61332d217a03b2ece704dbf612d3a0d6e3a31bec90e62d0fa73374d921eaf32e",
+      "linked_cache_block": true
+    },
+    {
+      "archive_path": "DatePalm_Dandhi_Replay_20261025T165206634656Z/rgb_prediction_cache/locked_test/block_000896_001024.npz",
+      "size_bytes": 9534,
+      "sha256": "b03cec1eb99193ac5f18a4d2cf9dd0f3298051625f3d7621e8d904859f7f6715",
+      "linked_cache_block": true
+    },
+    {
+      "archive_path": "DatePalm_Dandhi_Replay_20261025T165206634656Z/rgb_prediction_cache/locked_test/block_001024_001152.npz",
+      "size_bytes": 9457,
+      "sha256": "b1cfad6f00e1e414d5236323f54b796b867642bbad03d5a4b081e4db95af1dcc",
+      "linked_cache_block": true
+    },
+    {
+      "archive_path": "DatePalm_Dandhi_Replay_20261025T165206634656Z/rgb_prediction_cache/locked_test/block_001152_001280.npz",
+      "size_bytes": 9521,
+      "sha256": "f8559eb065197bbe8ebd2d051871dbff5f309563f7fd57a8b79c05876ab89c66",
+      "linked_cache_block": true
+    },
+    {
+      "archive_path": "DatePalm_Dandhi_Replay_20261025T165206634656Z/rgb_prediction_cache/locked_test/block_001280_001408.npz",
+      "size_bytes": 9488,
+      "sha256": "a71ca9463e1852addcf871d89e3e0de30a8744674514fcb80ad4068176900e96",
+      "linked_cache_block": true
+    },
+    {
+      "archive_path": "DatePalm_Dandhi_Replay_20261025T165206634656Z/rgb_prediction_cache/locked_test/block_001408_001536.npz",
+      "size_bytes": 9481,
+      "sha256": "7bc9999e83a92184d2dfad5fae596ac9c70e6674ee85060f316759c5f29f63ef",
+      "linked_cache_block": true
+    },
+    {
+      "archive_path": "DatePalm_Dandhi_Replay_20261025T165206634656Z/rgb_prediction_cache/locked_test/block_001536_001664.npz",
+      "size_bytes": 9489,
+      "sha256": "8e4b2f7da9feb1acc4840310cce52c44888b1620b0073ca2444fdca43e9954d1",
+      "linked_cache_block": true
+    },
+    {
+      "archive_path": "DatePalm_Dandhi_Replay_20261025T165206634656Z/rgb_prediction_cache/locked_test/block_001664_001792.npz",
+      "size_bytes": 9472,
+      "sha256": "f00e47ae800ad857b3c51aad9ef414df970b1ee4cd25ae02d1c6aa65f6c061b7",
+      "linked_cache_block": true
+    },
+    {
+      "archive_path": "DatePalm_Dandhi_Replay_20261025T165206634656Z/rgb_prediction_cache/locked_test/block_001792_001920.npz",
+      "size_bytes": 9468,
+      "sha256": "ed36560d1249251723de377372e064a8ea3d4d71f7b3f9ff9a8d8d41ec32aa47",
+      "linked_cache_block": true
+    },
+    {
+      "archive_path": "DatePalm_Dandhi_Replay_20261025T165206634656Z/rgb_prediction_cache/locked_test/block_001920_002048.npz",
+      "size_bytes": 9474,
+      "sha256": "675f28c2d3586ba6e3be59a86a3c2ea8b336f77d5eea48932f0f8820a661db09",
+      "linked_cache_block": true
+    },
+    {
+      "archive_path": "DatePalm_Dandhi_Replay_20261025T165206634656Z/rgb_prediction_cache/locked_test/block_002048_002176.npz",
+      "size_bytes": 9474,
+      "sha256": "e0934ceba0500195fa23d4737703354ce6503583e9d470cfbaa7be5c5d75e352",
+      "linked_cache_block": true
+    },
+    {
+      "archive_path": "DatePalm_Dandhi_Replay_20261025T165206634656Z/rgb_prediction_cache/locked_test/block_002176_002304.npz",
+      "size_bytes": 9458,
+      "sha256": "13bf02ff3f88f0d048da7b5d5e43e0260522f0972d99ce040dbdc120e4d1fcf0",
+      "linked_cache_block": true
+    },
+    {
+      "archive_path": "DatePalm_Dandhi_Replay_20261025T165206634656Z/rgb_prediction_cache/locked_test/block_002304_002432.npz",
+      "size_bytes": 9499,
+      "sha256": "4e949c5f4136290f1cfd198d60ad22c89f734acc03be8fff74e40e84178a6d43",
+      "linked_cache_block": true
+    },
+    {
+      "archive_path": "DatePalm_Dandhi_Replay_20261025T165206634656Z/rgb_prediction_cache/locked_test/block_002432_002560.npz",
+      "size_bytes": 9477,
+      "sha256": "7008fc631fe0fb76f958a5e28441634e409f59c0d6d5880a50ce22955be9597d",
+      "linked_cache_block": true
+    },
+    {
+      "archive_path": "DatePalm_Dandhi_Replay_20261025T165206634656Z/rgb_prediction_cache/locked_test/block_002560_002688.npz",
+      "size_bytes": 9503,
+      "sha256": "389193ff4d2c70146cef1d5dc585b83a4d4909f55d3465949aa4cc8abc9533c9",
+      "linked_cache_block": true
+    },
+    {
+      "archive_path": "DatePalm_Dandhi_Replay_20261025T165206634656Z/rgb_prediction_cache/locked_test/block_002688_002816.npz",
+      "size_bytes": 9495,
+      "sha256": "fb7f995bfd121c683a611026eaf2dfcfd3cd5c2557966d35dcd9b9ffb3bc98f6",
+      "linked_cache_block": true
+    },
+    {
+      "archive_path": "DatePalm_Dandhi_Replay_20261025T165206634656Z/rgb_prediction_cache/locked_test/block_002816_002944.npz",
+      "size_bytes": 9455,
+      "sha256": "7b92eddba538249e5588f8c92eb53d74a689dc2d9a9d0482e88ca3c8e0b72eb9",
+      "linked_cache_block": true
+    },
+    {
+      "archive_path": "DatePalm_Dandhi_Replay_20261025T165206634656Z/rgb_prediction_cache/locked_test/block_002944_003072.npz",
+      "size_bytes": 9413,
+      "sha256": "8f7e7eca07760fcf2dfecf8a0184b56289fe4bcd54a359dd82913931b0a272d1",
+      "linked_cache_block": true
+    },
+    {
+      "archive_path": "DatePalm_Dandhi_Replay_20261025T165206634656Z/rgb_prediction_cache/locked_test/block_003072_003200.npz",
+      "size_bytes": 9511,
+      "sha256": "7bc6e7ae347175ceb0d957213562b6741ceb67c20ecdc28c6148c132333a4090",
+      "linked_cache_block": true
+    },
+    {
+      "archive_path": "DatePalm_Dandhi_Replay_20261025T165206634656Z/rgb_prediction_cache/locked_test/block_003200_003270.npz",
+      "size_bytes": 5717,
+      "sha256": "d0472fca06dd49208e0c095e9f5c83b53ca8844dc22eb112aef2291dd7176e3c",
+      "linked_cache_block": true
+    }
+  ]
+}

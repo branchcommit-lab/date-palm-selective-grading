@@ -1,0 +1,4 @@
+first,second,only_first,only_second,exact_p
+Confidence-only,Appearance-only,32,11,0.001913961001264397
+Confidence-only,Combined,21,8,0.0241195447742939
+Combined,Appearance-only,11,3,0.057373046875

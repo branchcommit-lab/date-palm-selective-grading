@@ -1,0 +1,34 @@
+{
+  "appearance": {
+    "file": "appearance.ipynb",
+    "sha256": "ff39486c780efe8089a5e39b4c0b859522cfdea91071b61068409922ed9968d7"
+  },
+  "grader": {
+    "file": "grader.ipynb",
+    "sha256": "7bd3c6f8c74eb04909af8dbad1ed7fa8bef8d27a80cfce0f7d93948d7e0ca0dd"
+  },
+  "rgb_refinement": {
+    "file": "rgb_refinement.ipynb",
+    "sha256": "61ecd5f83847ae2e107a0bfc43af9d0f30ddbfa31f2220cee3d677f4b208d589"
+  },
+  "candidate": {
+    "file": "candidate.ipynb",
+    "sha256": "9d0e845b43c32b91b710d31ca55808577cb949ba4a678e4f3ec38d33f9f262d9"
+  },
+  "stress": {
+    "file": "stress.ipynb",
+    "sha256": "75b460efefe91cc99804cb36a13453d307e0fab883302cbb7c2aa63ea352fd55"
+  },
+  "visual_cues": {
+    "file": "visual_cues.ipynb",
+    "sha256": "e720f6d6507c06b90ad71fcb42a8e804263c99d254ba369ca02088d8c27167a7"
+  },
+  "size_holdout": {
+    "file": "size_holdout.ipynb",
+    "sha256": "e2777b919b29f7ceae962e4b7d5a7e5479ae3c49c6757f778fb589b498808303"
+  },
+  "cultivar_holdout": {
+    "file": "cultivar_holdout.ipynb",
+    "sha256": "e6762dbacc42b362a6bc65a7353341277168ceb3099d7078f774b813339bf3ad"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "run": "LOVO_Karblian_seed11",
+  "group": "cultivar_holdout",
+  "checkpoint_sha256": "dd56fb72216523f261d55a0a3d535a190199ebd7b444d01094cbd35dd475d521",
+  "fingerprint": "dca1d3cac451b91b48f67b64fb5b43ed6876d906a218970a8d01a02a7d47f0f6",
+  "classes": [
+    "Small",
+    "Medium",
+    "Large"
+  ],
+  "evaluation_rows": 207,
+  "calibration_rows": 334,
+  "frozen_threshold": 0.35348647832870483,
+  "maximum_probability_absolute_error": 2.9698944081779644e-08,
+  "probabilities_outside_tolerance": 0,
+  "grade_mismatches": 0,
+  "referral_mismatches": 0,
+  "calibration_max_error_vs_original_cache": 0.0,
+  "evaluation_bitwise_equal_original_cache": true,
+  "calibration_bitwise_equal_original_cache": true,
+  "pass": true,
+  "calibration_probability_bytes_sha256": "3086716fc672be99f668a6c6f887591ce3473a9d086bdd18dd6db25e14fe93b6",
+  "original_calibration_probability_bytes_sha256": "3086716fc672be99f668a6c6f887591ce3473a9d086bdd18dd6db25e14fe93b6",
+  "evaluation_probability_bytes_sha256": "4df6d1da00206bf15545ae0ac5b8ef620d32fb10e4c03b9c10e0a80facce6ee7",
+  "original_evaluation_probability_bytes_sha256": "4df6d1da00206bf15545ae0ac5b8ef620d32fb10e4c03b9c10e0a80facce6ee7",
+  "source_result_sha256": "64c6ace278e8de39859e59a233afafcf8350e1f0ab8360f9fc934c674df00d33",
+  "source_predictions_sha256": "e20a660961a3eeefae28ab95c66faa6181061e3f2bacf74ec8523afab48cb209"
+}

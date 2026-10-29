@@ -1,0 +1,49 @@
+{
+  "candidate_blend_weights": [
+    0.0,
+    0.1,
+    0.2,
+    0.35,
+    0.5
+  ],
+  "defect_labels_used_for_training": false,
+  "development_results": [
+    {
+      "development_accuracy": 0.8610778443113772,
+      "development_macro_f1": 0.8618409856206218,
+      "development_nll": 0.42130576032984696,
+      "geometry_weight": 0.0
+    },
+    {
+      "development_accuracy": 0.8562874251497006,
+      "development_macro_f1": 0.8570641176817184,
+      "development_nll": 0.4149866403963558,
+      "geometry_weight": 0.1
+    },
+    {
+      "development_accuracy": 0.8562874251497006,
+      "development_macro_f1": 0.857033394142657,
+      "development_nll": 0.41893495350564164,
+      "geometry_weight": 0.2
+    },
+    {
+      "development_accuracy": 0.8479041916167664,
+      "development_macro_f1": 0.8485381328526563,
+      "development_nll": 0.4324252047288362,
+      "geometry_weight": 0.35
+    },
+    {
+      "development_accuracy": 0.837125748502994,
+      "development_macro_f1": 0.8378305712168007,
+      "development_nll": 0.45303997119950634,
+      "geometry_weight": 0.5
+    }
+  ],
+  "geometry_method": "HistGradientBoosting fixed settings; group-balanced source weights",
+  "minimum_development_macro_f1_gain": 0.005,
+  "old_grader": "equal_weight_ensemble",
+  "old_temperature": 1.4756966894758048,
+  "revision": "V51-GEOMETRY-ONE-HEAD-R2-20261023",
+  "selected_weight": 0.0,
+  "test_used_for_selection": false
+}

@@ -1,0 +1,28 @@
+{
+  "run": "LOVO_Kupro_seed23",
+  "group": "cultivar_holdout",
+  "checkpoint_sha256": "0110a633929b8d42d109ac115578c9ec8584fea0a07831a64b70a7f157373113",
+  "fingerprint": "6e79ebf229ef97bb11d895214b1d9445072b73c13a1788042f6c573a488693ca",
+  "classes": [
+    "Small",
+    "Medium",
+    "Large"
+  ],
+  "evaluation_rows": 189,
+  "calibration_rows": 340,
+  "frozen_threshold": 0.3663870692253113,
+  "maximum_probability_absolute_error": 2.9793548628198607e-08,
+  "probabilities_outside_tolerance": 0,
+  "grade_mismatches": 0,
+  "referral_mismatches": 0,
+  "calibration_max_error_vs_original_cache": 0.0,
+  "evaluation_bitwise_equal_original_cache": true,
+  "calibration_bitwise_equal_original_cache": true,
+  "pass": true,
+  "calibration_probability_bytes_sha256": "163019be85234179f339d559b4b19a80f4cf23f4f9881107ac3e19706bbe31a4",
+  "original_calibration_probability_bytes_sha256": "163019be85234179f339d559b4b19a80f4cf23f4f9881107ac3e19706bbe31a4",
+  "evaluation_probability_bytes_sha256": "da786f0b4b42690050dcc519460e6b0f0e62826ae4e5291778f6a9ee3e9c8402",
+  "original_evaluation_probability_bytes_sha256": "da786f0b4b42690050dcc519460e6b0f0e62826ae4e5291778f6a9ee3e9c8402",
+  "source_result_sha256": "2ec03918817463be54f69e76bd00db4055d20e2f7ce3959320b088d0f63fadd5",
+  "source_predictions_sha256": "a1d7289191f63510605819dd62a42300af018d4a5dc3efcbdd3e11f95cb92c6c"
+}

@@ -1,0 +1,28 @@
+{
+  "run": "LOVO_Dandhi_seed23",
+  "group": "cultivar_holdout",
+  "checkpoint_sha256": "9c401cb1a7905b10fa4f284f9944a3be757291bd4c7ce481983920549967f4ae",
+  "fingerprint": "c356df0651875c186677f8fd61023ac21a1ce849663a62fc1820eaeb2bf05f54",
+  "classes": [
+    "Small",
+    "Medium",
+    "Large"
+  ],
+  "evaluation_rows": 218,
+  "calibration_rows": 323,
+  "frozen_threshold": 0.31238430738449097,
+  "maximum_probability_absolute_error": 2.9569244386351556e-08,
+  "probabilities_outside_tolerance": 0,
+  "grade_mismatches": 0,
+  "referral_mismatches": 0,
+  "calibration_max_error_vs_original_cache": 0.0,
+  "evaluation_bitwise_equal_original_cache": true,
+  "calibration_bitwise_equal_original_cache": true,
+  "pass": true,
+  "calibration_probability_bytes_sha256": "666223767791bbb83cdfe72c43ffbc466609034a50d82913872dffd9a8bc30d9",
+  "original_calibration_probability_bytes_sha256": "666223767791bbb83cdfe72c43ffbc466609034a50d82913872dffd9a8bc30d9",
+  "evaluation_probability_bytes_sha256": "b8cc855957fa75de9919d7beb5aafc0896d011aa3c48ea0476f571c23c4151de",
+  "original_evaluation_probability_bytes_sha256": "b8cc855957fa75de9919d7beb5aafc0896d011aa3c48ea0476f571c23c4151de",
+  "source_result_sha256": "2c27f15ce800124b5ee5cd059cc3ff8b050e8678562e833100f5a72fcb6b9c8a",
+  "source_predictions_sha256": "312b58944c9331f334771a41f8673d0c9f792cc583172ac60cec914e1d6ba721"
+}

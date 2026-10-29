@@ -1,0 +1,22 @@
+{
+  "models/size_grader_seed11.pt": {
+    "sha256": "d6fa1e1119aecb850b2b9a8e5712e676c39554188c8d2a577dc8730eb9aa3c38",
+    "size_bytes": 33613653
+  },
+  "models/size_grader_seed23.pt": {
+    "sha256": "128a9f54d138b5985fef0961336d39175f55fc3527d6b8c05d719dffb41c2184",
+    "size_bytes": 33613525
+  },
+  "models/size_grader_seed37.pt": {
+    "sha256": "733d1ccd1640e2ab9e61201017f15cd7a38ac060b3294dac2ac60646f489fc2d",
+    "size_bytes": 33613653
+  },
+  "models/rgb_refinement.pt": {
+    "sha256": "0f2c1b75dfe9d7dfc3498b88a5bd065b97e8cf5a28262c32bd2d633a386bb909",
+    "size_bytes": 44792395
+  },
+  "models/appearance.pt": {
+    "sha256": "f93f8debbb69f581c3b21379097af70f55df8bdf1d0557ff7c3ca77c72309eb1",
+    "size_bytes": 57563609
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "alpha": 0.5,
+  "dev_results": [
+    {
+      "accuracy": 0.8610778443113772,
+      "dandhi_f1": 0.7281125555635359,
+      "macro_f1": 0.8618409856206218,
+      "nll": 0.42130576032984696,
+      "weight": 0.0
+    },
+    {
+      "accuracy": 0.8658682634730539,
+      "dandhi_f1": 0.7461346538760555,
+      "macro_f1": 0.8664411083059393,
+      "nll": 0.4250786367003936,
+      "weight": 0.25
+    },
+    {
+      "accuracy": 0.8670658682634731,
+      "dandhi_f1": 0.7484670624823296,
+      "macro_f1": 0.8677072928379648,
+      "nll": 0.4337320509023954,
+      "weight": 0.5
+    },
+    {
+      "accuracy": 0.8670658682634731,
+      "dandhi_f1": 0.7480667480667481,
+      "macro_f1": 0.8676349123338772,
+      "nll": 0.4507910681693248,
+      "weight": 0.75
+    },
+    {
+      "accuracy": 0.8646706586826347,
+      "dandhi_f1": 0.7380283443765969,
+      "macro_f1": 0.8651516093127315,
+      "nll": 0.5052245924553942,
+      "weight": 1.0
+    }
+  ],
+  "incumbent_dandhi_development_macro_f1": 0.7281125555635359,
+  "incumbent_development_macro_f1": 0.8618409856206218,
+  "predefined_weights": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "prior_exposure_to_development_results": true,
+  "required_dandhi_macro_f1_gain": 0.01,
+  "required_overall_macro_f1_gain": 0.002,
+  "revision": "V51-DANDHI-TARGETED-RGB-R1-20261023",
+  "selected_checkpoint_sha256": "0f2c1b75dfe9d7dfc3498b88a5bd065b97e8cf5a28262c32bd2d633a386bb909",
+  "selection_uses_test_or_anomaly_labels": false
+}

@@ -1,0 +1,9 @@
+{
+  "candidate_blend_weight": 0.5,
+  "candidate_temperature": 1.4756966894758048,
+  "C11_threshold": 6.769515948690241e-06,
+  "C11_score_atol": 1e-05,
+  "C11_score_rtol": 0.0,
+  "training_executed": false,
+  "source": "authenticated component reports; no threshold recalibration"
+}

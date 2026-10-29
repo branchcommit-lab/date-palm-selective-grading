@@ -1,0 +1,65 @@
+{
+  "status": "PASS_DANDHI_CANDIDATE_PROBABILITY_REPLAY",
+  "training_executed": false,
+  "source_notebook_sha256": "b60e383b090abd528b5ceb03322e8c4c4771c3b8295c1a0981af6a1b6f7ed471",
+  "rgb_checkpoint_sha256": "0f2c1b75dfe9d7dfc3498b88a5bd065b97e8cf5a28262c32bd2d633a386bb909",
+  "pretrained_imagenet_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+  "development_blend_weight": 0.5,
+  "selected_size_grader": "equal_weight_ensemble",
+  "selected_temperature": 1.4756966894758048,
+  "calibration_rows": 1668,
+  "locked_test_rows": 12510,
+  "calibration_dandhi_rows": 435,
+  "locked_test_dandhi_rows": 3270,
+  "locked_test_candidate_grade_mismatches": 0,
+  "locked_test_candidate_confidence_10_mismatches": 0,
+  "locked_test_candidate_OR_5_5_mismatches": 0,
+  "locked_test_C11_10_mismatches": 0,
+  "source_model_calibration_and_selection": "authentic original source, unchanged",
+  "original_results_unmodified": true,
+  "cache_reuse": {
+    "calibration": {
+      "linked_original_blocks": 4,
+      "files": [
+        "block_000000_000128.npz",
+        "block_000128_000256.npz",
+        "block_000256_000384.npz",
+        "block_000384_000435.npz"
+      ]
+    },
+    "locked_test": {
+      "linked_original_blocks": 26,
+      "files": [
+        "block_000000_000128.npz",
+        "block_000128_000256.npz",
+        "block_000256_000384.npz",
+        "block_000384_000512.npz",
+        "block_000512_000640.npz",
+        "block_000640_000768.npz",
+        "block_000768_000896.npz",
+        "block_000896_001024.npz",
+        "block_001024_001152.npz",
+        "block_001152_001280.npz",
+        "block_001280_001408.npz",
+        "block_001408_001536.npz",
+        "block_001536_001664.npz",
+        "block_001664_001792.npz",
+        "block_001792_001920.npz",
+        "block_001920_002048.npz",
+        "block_002048_002176.npz",
+        "block_002176_002304.npz",
+        "block_002304_002432.npz",
+        "block_002432_002560.npz",
+        "block_002560_002688.npz",
+        "block_002688_002816.npz",
+        "block_002816_002944.npz",
+        "block_002944_003072.npz",
+        "block_003072_003200.npz",
+        "block_003200_003270.npz"
+      ]
+    }
+  },
+  "scope": "Dandhi candidate checkpoint replay for 1668 calibration and 12510 locked-test variants; not full 45-model or 33-supplementary inference",
+  "export_calibration_csv_sha256": "10f5e52486cfe4d2ec7f2037beb5b622af08006f9fe29d4f7aff931aa5586b95",
+  "export_locked_test_csv_sha256": "9a5b21260ff6040a08a5d9d24687ba1a75e1f77505d8903e31f56fd5d727cb03"
+}

@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "input_population": 12510,
+  "sources": 834,
+  "figures": [
+    "Figure_1_study_design.png",
+    "Figure_2_policy_comparison.png",
+    "Figure_3_dandhi_changes.png",
+    "Figure_4_four_views.png",
+    "Figure_5_class_holdout.png",
+    "Figure_6_stress.png",
+    "Figure_7_cultivar_holdout.png"
+  ],
+  "tables": [
+    "Supplementary_Table_S1_C1_alteration_families.csv",
+    "Supplementary_Table_S2_C1_paired_error_capture.csv",
+    "Supplementary_Table_S3_LOVO_seed_ranges.csv",
+    "Table_1_study_populations.csv",
+    "Table_2_C1_all_paired_bootstrap_contrasts.csv",
+    "Table_3_C1_operating_policy_outcomes.csv",
+    "Table_4_C2_cultivar_conditional_grading.csv",
+    "Table_5_C3_size_class_holdout.csv",
+    "Table_6_Dandhi_photographic_stress.csv",
+    "Table_7_C3_cultivar_holdout.csv"
+  ],
+  "replay_scope": "Figures and tables derived from frozen observation-level predictions. No new model inference, raw-image processing or retraining performed.",
+  "bootstrap": {
+    "replicates": 2000,
+    "seed": 20261025
+  }
+}

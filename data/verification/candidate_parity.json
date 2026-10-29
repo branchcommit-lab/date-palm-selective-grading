@@ -1,0 +1,22 @@
+{
+  "study_component": "Dandhi targeted RGB refinement",
+  "status": "PASS_DANDHI_CANDIDATE_PROBABILITY_REPLAY",
+  "independent_archive_member_hashes": "PASS",
+  "original_source_sha256": "b60e383b090abd528b5ceb03322e8c4c4771c3b8295c1a0981af6a1b6f7ed471",
+  "rgb_checkpoint_sha256": "0f2c1b75dfe9d7dfc3498b88a5bd065b97e8cf5a28262c32bd2d633a386bb909",
+  "historical_prediction_sha256": "dcf6b5a32d229f9122d7be3a8a5d6555a5891b71e87f0d156af459250ad4bb4d",
+  "replay_archive_sha256": "e80cf231bd30db63d9d33685b5f20ca9de1bf484c1f3c9eb04d862f9f01f0839",
+  "calibration_rows": 1668,
+  "locked_test_rows": 12510,
+  "sample_id_alignment": "PASS",
+  "candidate_grade_parity": "PASS",
+  "candidate_confidence_referral_parity": "PASS",
+  "candidate_OR_referral_parity": "PASS",
+  "development_blend_weight": 0.5,
+  "training_executed": false,
+  "limitations": [
+    "This certifies the Dandhi candidate replay, not every V4/C11 or C3 checkpoint inference pathway.",
+    "The sensitivity curves are downstream evaluations of the recovered calibrated probabilities.",
+    "Optional original-method retraining is not certified by this replay."
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "status": "PASS",
+  "runs": 33,
+  "individual_predictions": 12954,
+  "numeric_checks": 168,
+  "failed_checks": 0,
+  "inference_executed": false,
+  "training_executed": false,
+  "interpretation": "Run-level metrics recalculated from independent recorded predictions; no model checkpoint replay performed",
+  "inputs": [
+    {
+      "family": "four_view",
+      "run": "VIEW_full_seed11",
+      "sha256": "6332e1ec1287e695257c0316e5a3b33d22a0e925fdd12c3d1e1b4a65fa8fd5b3",
+      "records": 499
+    },
+    {
+      "family": "four_view",
+      "run": "VIEW_full_seed23",
+      "sha256": "ed0cf92bce9d3ff4c076ec755d936fccae82429a16b34d250286c551f80590ed",
+      "records": 499
+    },
+    {
+      "family": "four_view",
+      "run": "VIEW_full_seed37",
+      "sha256": "30505ee619ff011fbeaa016a8bb428f6aa81fcdd5784d2a23bb34493441480be",
+      "records": 499
+    },
+    {
+      "family": "four_view",
+      "run": "VIEW_background_seed11",
+      "sha256": "6c04e32aadcd99c314d6c58eab9a8c8ee85dd2b5e6fca1ff5a0115377ba0fd9c",
+      "records": 499
+    },
+    {
+      "family": "four_view",
+      "run": "VIEW_background_seed23",
+      "sha256": "f9958ac8d33495240ece1317ccef43b001ea0082fba497f2b9c00a970d4961d2",
+      "records": 499
+    },
+    {
+      "family": "four_view",
+      "run": "VIEW_background_seed37",
+      "sha256": "64f5ef7dab4ff4a9197e4da037c36bb8e4c2c54bba25f4a95086aaa5eec16bb1",
+      "records": 499
+    },
+    {
+      "family": "four_view",
+      "run": "VIEW_foreground_seed11",
+      "sha256": "26ef181ca3d0ded6a6310111924b22fc7519d3c79f11986897b170065035e752",
+      "records": 499
+    },
+    {
+      "family": "four_view",
+      "run": "VIEW_foreground_seed23",
+      "sha256": "8cb92bdb68d7dc1e320311f45c7e092a76c062f622117d5ee15509bec8f6886e",
+      "records": 499
+    },
+    {
+      "family": "four_view",
+      "run": "VIEW_foreground_seed37",
+      "sha256": "6a0bb203d7a44b42cf668e8cd6cda8479103f8b550cb4631ada5e65dd1f78c34",
+      "records": 499
+    },
+    {
+      "family": "four_view",
+      "run": "VIEW_shape_only_seed11",
+      "sha256": "5657f2439d698b450c53d7cbf9b83e3bbabbcacf45f0d2707bbd90f8c0552171",
+      "records": 499
+    },
+    {
+      "family": "four_view",
+      "run": "VIEW_shape_only_seed23",
+      "sha256": "d299e3929172ff488aa4d154474358e18b665a8c13ce3421f2ccb6024514ac70",
+      "records": 499
+    },
+    {
+      "family": "four_view",
+      "run": "VIEW_shape_only_seed37",
+      "sha256": "b084d331aaef4a8472dffd4f99ff29dc89d480cec204b646b284196c72f5fa05",
+      "records": 499
+    },
+    {
+      "family": "cultivar_holdout",
+      "run": "LOVO_Aseel_seed11",
+      "sha256": "3210f119db80c32147d16195b512dcdea775c9ec9309bc0100e58c7133e34fc4",
+      "records": 221
+    },
+    {
+      "family": "cultivar_holdout",
+      "run": "LOVO_Aseel_seed23",
+      "sha256": "afff7a63430e3894f886899d3cdd3bb3a47f3be73df3049cbc53de73e6c07602",
+      "records": 221
+    },
+    {
+      "family": "cultivar_holdout",
+      "run": "LOVO_Aseel_seed37",
+      "sha256": "96ccd40dac355a5780cab14e3d2d403911d1e31dfff4677bfcd51a3531487cdd",
+      "records": 221
+    },
+    {
+      "family": "cultivar_holdout",
+      "run": "LOVO_Dandhi_seed11",
+      "sha256": "790bd0d6012a5017bb4a723dbd1b088730255db2cc15c149678f96acb1ffe93e",
+      "records": 218
+    },
+    {
+      "family": "cultivar_holdout",
+      "run": "LOVO_Dandhi_seed23",
+      "sha256": "312b58944c9331f334771a41f8673d0c9f792cc583172ac60cec914e1d6ba721",
+      "records": 218
+    },
+    {
+      "family": "cultivar_holdout",
+      "run": "LOVO_Dandhi_seed37",
+      "sha256": "41c7485b0eafd57f7cc1c2271f23871149378e8d56a81197aaf58af05d6a8986",
+      "records": 218
+    },
+    {
+      "family": "cultivar_holdout",
+      "run": "LOVO_Karblian_seed11",
+      "sha256": "e20a660961a3eeefae28ab95c66faa6181061e3f2bacf74ec8523afab48cb209",
+      "records": 207
+    },
+    {
+      "family": "cultivar_holdout",
+      "run": "LOVO_Karblian_seed23",
+      "sha256": "d6a48ea9162da2a87402235d35358f03c5c0618b35a1ac62fc258df8654d4e77",
+      "records": 207
+    },
+    {
+      "family": "cultivar_holdout",
+      "run": "LOVO_Karblian_seed37",
+      "sha256": "011b7ac54ce6fff32457db7b799f89243ae525f370c1c99a21190534cd767fc4",
+      "records": 207
+    },
+    {
+      "family": "cultivar_holdout",
+      "run": "LOVO_Kupro_seed11",
+      "sha256": "f7bb4754e74f7a6845d4c1552ca65ba2b6ee66cbf9e3ae6e38d8107e93034f8e",
+      "records": 189
+    },
+    {
+      "family": "cultivar_holdout",
+      "run": "LOVO_Kupro_seed23",
+      "sha256": "a1d7289191f63510605819dd62a42300af018d4a5dc3efcbdd3e11f95cb92c6c",
+      "records": 189
+    },
+    {
+      "family": "cultivar_holdout",
+      "run": "LOVO_Kupro_seed37",
+      "sha256": "a9488906955a41fc39e57d660185644e04d2782e7d58000dcd62f1ddf9fee5c1",
+      "records": 189
+    },
+    {
+      "family": "size_holdout",
+      "run": "CLASS_HOLDOUT_Small_seed11",
+      "sha256": "0be75b7007479a146a725568892760590ee17423e6a42b84fcb143918a90bb37",
+      "records": 503
+    },
+    {
+      "family": "size_holdout",
+      "run": "CLASS_HOLDOUT_Small_seed23",
+      "sha256": "f9c8b75c9b711866ba70252cb87110de5eb9afc494d5e19fa99a157a710f773b",
+      "records": 503
+    },
+    {
+      "family": "size_holdout",
+      "run": "CLASS_HOLDOUT_Small_seed37",
+      "sha256": "a1994bc683e116d411d0fab80faa2125d1daab914b36586057bdeb826dec5f2b",
+      "records": 503
+    },
+    {
+      "family": "size_holdout",
+      "run": "CLASS_HOLDOUT_Medium_seed11",
+      "sha256": "0bfe1d05c5493d53329c34aa6e50e423ad5ae24a27595dea9d4c678dd5c6360b",
+      "records": 491
+    },
+    {
+      "family": "size_holdout",
+      "run": "CLASS_HOLDOUT_Medium_seed23",
+      "sha256": "197d85bbc52a3454c820711746281e09d599ff719baf610b2181a54b574b0425",
+      "records": 491
+    },
+    {
+      "family": "size_holdout",
+      "run": "CLASS_HOLDOUT_Medium_seed37",
+      "sha256": "a33f284f03398b5c08e1d84b343d8e6b15f0c99d98aa2674f5504c262f72ae71",
+      "records": 491
+    },
+    {
+      "family": "size_holdout",
+      "run": "CLASS_HOLDOUT_Large_seed11",
+      "sha256": "7e24be344c13d0bedf43f83784b349f81d931f2b6b155744b1460726062ce386",
+      "records": 493
+    },
+    {
+      "family": "size_holdout",
+      "run": "CLASS_HOLDOUT_Large_seed23",
+      "sha256": "9cd066a2824cc2aae480bd850c5e06284da7a4731d5a1cadd2f5c7c9320c54eb",
+      "records": 493
+    },
+    {
+      "family": "size_holdout",
+      "run": "CLASS_HOLDOUT_Large_seed37",
+      "sha256": "13bc627c74ef342d94ba683c95ba286144f37aeee3f77fc9ccb79c85f9d81e46",
+      "records": 493
+    }
+  ]
+}

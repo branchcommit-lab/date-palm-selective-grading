@@ -1,0 +1,9 @@
+population,n,use
+Original collection,5836,"Four cultivars, three size labels"
+Eligible images,5828,Source-group-separated
+Training,3603,Baseline/appearance training
+Development,835,Model choice and acquisition stress
+Calibration,556,Referral thresholds
+Locked-test originals,834,C1/C2 original endpoints
+Constructed locked test,12510,834 × (1 original + 2 benign + 12 altered)
+Supplementary C3 runs,33,12 four-view + 12 cultivar + 9 size holdout

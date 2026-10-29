@@ -1,0 +1,288 @@
+{
+  "status": "PASS_CHECKPOINT_INVENTORY",
+  "training_executed": false,
+  "inference_executed": false,
+  "groups": {
+    "four_view": {
+      "expected": 12,
+      "found": 12,
+      "complete": true
+    },
+    "cultivar_holdout": {
+      "expected": 12,
+      "found": 12,
+      "complete": true
+    },
+    "size_class_holdout": {
+      "expected": 9,
+      "found": 9,
+      "complete": true
+    }
+  },
+  "checkpoints": [
+    {
+      "group": "four_view",
+      "run": "VIEW_background_seed11",
+      "checkpoint": "EXTERNAL_INPUT_NOT_BUNDLED",
+      "bytes": 44791179,
+      "sha256": "e66c6183a087db0e066581b5f8206abc7c0b5b922f9c8e410eadebf501e3ee23",
+      "training_state_exists": true
+    },
+    {
+      "group": "four_view",
+      "run": "VIEW_background_seed23",
+      "checkpoint": "EXTERNAL_INPUT_NOT_BUNDLED",
+      "bytes": 44791179,
+      "sha256": "47fc9fadbef65f73ff3e547703b7686e3302a31e38d3199d592c1e7a96432d49",
+      "training_state_exists": true
+    },
+    {
+      "group": "four_view",
+      "run": "VIEW_background_seed37",
+      "checkpoint": "EXTERNAL_INPUT_NOT_BUNDLED",
+      "bytes": 44791179,
+      "sha256": "a8db8e602dd653997c74d2eedaced5980c728db700e0fb21f2e0843a7a0d4550",
+      "training_state_exists": true
+    },
+    {
+      "group": "four_view",
+      "run": "VIEW_foreground_seed11",
+      "checkpoint": "EXTERNAL_INPUT_NOT_BUNDLED",
+      "bytes": 44791179,
+      "sha256": "3ea686a0dd3e13cdf9e73d79cb9fd2711327039c9fbf785c1763622ac6142b88",
+      "training_state_exists": true
+    },
+    {
+      "group": "four_view",
+      "run": "VIEW_foreground_seed23",
+      "checkpoint": "EXTERNAL_INPUT_NOT_BUNDLED",
+      "bytes": 44791179,
+      "sha256": "21576ff673a6a4bb99156d956f2bf4c2e719c82ce8e0f5541a427270675da790",
+      "training_state_exists": true
+    },
+    {
+      "group": "four_view",
+      "run": "VIEW_foreground_seed37",
+      "checkpoint": "EXTERNAL_INPUT_NOT_BUNDLED",
+      "bytes": 44791179,
+      "sha256": "edbd15ebe0a349a0b29eed23274429b9f2461998f702a4df5094de9007e412c3",
+      "training_state_exists": true
+    },
+    {
+      "group": "four_view",
+      "run": "VIEW_full_seed11",
+      "checkpoint": "EXTERNAL_INPUT_NOT_BUNDLED",
+      "bytes": 44791179,
+      "sha256": "d5a2c62b097b753985eea700730035dc1ee0dcc81ce22733951a47c7173f52ac",
+      "training_state_exists": true
+    },
+    {
+      "group": "four_view",
+      "run": "VIEW_full_seed23",
+      "checkpoint": "EXTERNAL_INPUT_NOT_BUNDLED",
+      "bytes": 44791179,
+      "sha256": "435e8f8340028681ab9c1e98f303d49e0a5ef90666415f5489ffd7500f5e0d8f",
+      "training_state_exists": true
+    },
+    {
+      "group": "four_view",
+      "run": "VIEW_full_seed37",
+      "checkpoint": "EXTERNAL_INPUT_NOT_BUNDLED",
+      "bytes": 44791179,
+      "sha256": "77047d6784e4d62efe96ddd4130effa30a569848150f4658f7f0e479d8041f02",
+      "training_state_exists": true
+    },
+    {
+      "group": "four_view",
+      "run": "VIEW_shape_only_seed11",
+      "checkpoint": "EXTERNAL_INPUT_NOT_BUNDLED",
+      "bytes": 44791179,
+      "sha256": "27b3e31c53ad8389cb6dea0b2679b3184f87bda16684c2d666786e8878bd7ace",
+      "training_state_exists": true
+    },
+    {
+      "group": "four_view",
+      "run": "VIEW_shape_only_seed23",
+      "checkpoint": "EXTERNAL_INPUT_NOT_BUNDLED",
+      "bytes": 44791179,
+      "sha256": "ea4b9536958891a430658046fd395f3fead963962258735c577ca97926672372",
+      "training_state_exists": true
+    },
+    {
+      "group": "four_view",
+      "run": "VIEW_shape_only_seed37",
+      "checkpoint": "EXTERNAL_INPUT_NOT_BUNDLED",
+      "bytes": 44791179,
+      "sha256": "d146f291676b3126261d5f1bb6fbd026f24961552579baae7ec95070fd12d46c",
+      "training_state_exists": true
+    },
+    {
+      "group": "cultivar_holdout",
+      "run": "LOVO_Aseel_seed11",
+      "checkpoint": "EXTERNAL_INPUT_NOT_BUNDLED",
+      "bytes": 44791179,
+      "sha256": "ab308e3930e71fcc48d54f176e3dccfba9a9fb4fc592f643972ad08756af8127",
+      "training_state_exists": true
+    },
+    {
+      "group": "cultivar_holdout",
+      "run": "LOVO_Aseel_seed23",
+      "checkpoint": "EXTERNAL_INPUT_NOT_BUNDLED",
+      "bytes": 44791179,
+      "sha256": "012d12b2981d9f78da2d830fd2e56fccdff40fc83b1ffc930047849b64600f9d",
+      "training_state_exists": true
+    },
+    {
+      "group": "cultivar_holdout",
+      "run": "LOVO_Aseel_seed37",
+      "checkpoint": "EXTERNAL_INPUT_NOT_BUNDLED",
+      "bytes": 44791179,
+      "sha256": "ad788341da0406d803ea30f8398193ac6cdf84a4020e9805871833dc1c06f955",
+      "training_state_exists": true
+    },
+    {
+      "group": "cultivar_holdout",
+      "run": "LOVO_Dandhi_seed11",
+      "checkpoint": "EXTERNAL_INPUT_NOT_BUNDLED",
+      "bytes": 44791179,
+      "sha256": "b4c897cdaded55fc6016ae3edac9d180bddf11f7a1483020bcb65d36d28333d0",
+      "training_state_exists": true
+    },
+    {
+      "group": "cultivar_holdout",
+      "run": "LOVO_Dandhi_seed23",
+      "checkpoint": "EXTERNAL_INPUT_NOT_BUNDLED",
+      "bytes": 44791179,
+      "sha256": "9c401cb1a7905b10fa4f284f9944a3be757291bd4c7ce481983920549967f4ae",
+      "training_state_exists": true
+    },
+    {
+      "group": "cultivar_holdout",
+      "run": "LOVO_Dandhi_seed37",
+      "checkpoint": "EXTERNAL_INPUT_NOT_BUNDLED",
+      "bytes": 44791179,
+      "sha256": "ed5b6752315f0f75bf42c3f8f60adc73edac600a3d1b55c4aa15e06bb035327c",
+      "training_state_exists": true
+    },
+    {
+      "group": "cultivar_holdout",
+      "run": "LOVO_Karblian_seed11",
+      "checkpoint": "EXTERNAL_INPUT_NOT_BUNDLED",
+      "bytes": 44791179,
+      "sha256": "dd56fb72216523f261d55a0a3d535a190199ebd7b444d01094cbd35dd475d521",
+      "training_state_exists": true
+    },
+    {
+      "group": "cultivar_holdout",
+      "run": "LOVO_Karblian_seed23",
+      "checkpoint": "EXTERNAL_INPUT_NOT_BUNDLED",
+      "bytes": 44791179,
+      "sha256": "035c9439327ca9d7c353a2681abd425a51d5a00b7350ea748a6718cbe5e95a0b",
+      "training_state_exists": true
+    },
+    {
+      "group": "cultivar_holdout",
+      "run": "LOVO_Karblian_seed37",
+      "checkpoint": "EXTERNAL_INPUT_NOT_BUNDLED",
+      "bytes": 44791179,
+      "sha256": "dc87eed484d51db99280e0caccd3efa689c0d7c216472b9db91343737368ac90",
+      "training_state_exists": true
+    },
+    {
+      "group": "cultivar_holdout",
+      "run": "LOVO_Kupro_seed11",
+      "checkpoint": "EXTERNAL_INPUT_NOT_BUNDLED",
+      "bytes": 44791179,
+      "sha256": "f6eaf4e9f658f4b94c9814d48315319c249363073ecced07a5b53619c6065857",
+      "training_state_exists": true
+    },
+    {
+      "group": "cultivar_holdout",
+      "run": "LOVO_Kupro_seed23",
+      "checkpoint": "EXTERNAL_INPUT_NOT_BUNDLED",
+      "bytes": 44791179,
+      "sha256": "0110a633929b8d42d109ac115578c9ec8584fea0a07831a64b70a7f157373113",
+      "training_state_exists": true
+    },
+    {
+      "group": "cultivar_holdout",
+      "run": "LOVO_Kupro_seed37",
+      "checkpoint": "EXTERNAL_INPUT_NOT_BUNDLED",
+      "bytes": 44791179,
+      "sha256": "13e43613017d296c010d895b130766c64bd6a052832033cae2e8fcaea87360e9",
+      "training_state_exists": true
+    },
+    {
+      "group": "size_class_holdout",
+      "run": "CLASS_HOLDOUT_Large_seed11",
+      "checkpoint": "EXTERNAL_INPUT_NOT_BUNDLED",
+      "bytes": 44789131,
+      "sha256": "0a5d893fff41879fd6018fb3c7229b844a331cb5a96a60a3b3eab50ea241567b",
+      "training_state_exists": true
+    },
+    {
+      "group": "size_class_holdout",
+      "run": "CLASS_HOLDOUT_Large_seed23",
+      "checkpoint": "EXTERNAL_INPUT_NOT_BUNDLED",
+      "bytes": 44789131,
+      "sha256": "ce63ca536327d34c19902f4169a4d0ad0e6958203e095a709bbb53bece0506c9",
+      "training_state_exists": true
+    },
+    {
+      "group": "size_class_holdout",
+      "run": "CLASS_HOLDOUT_Large_seed37",
+      "checkpoint": "EXTERNAL_INPUT_NOT_BUNDLED",
+      "bytes": 44789131,
+      "sha256": "b9570673c3e2bf57a52d640bd8b234162d448b8bcbddec70b694b13376cb59d5",
+      "training_state_exists": true
+    },
+    {
+      "group": "size_class_holdout",
+      "run": "CLASS_HOLDOUT_Medium_seed11",
+      "checkpoint": "EXTERNAL_INPUT_NOT_BUNDLED",
+      "bytes": 44789131,
+      "sha256": "7bd5e19847576d4729ef7f1efe16e6c21ee84adaedd71a543383266af02c785b",
+      "training_state_exists": true
+    },
+    {
+      "group": "size_class_holdout",
+      "run": "CLASS_HOLDOUT_Medium_seed23",
+      "checkpoint": "EXTERNAL_INPUT_NOT_BUNDLED",
+      "bytes": 44789131,
+      "sha256": "10710da3dcda79fc11e090038a6c0e97ce7cb89f5c9a7d97b774b9e4244cb944",
+      "training_state_exists": true
+    },
+    {
+      "group": "size_class_holdout",
+      "run": "CLASS_HOLDOUT_Medium_seed37",
+      "checkpoint": "EXTERNAL_INPUT_NOT_BUNDLED",
+      "bytes": 44789131,
+      "sha256": "62586ce4a189b38da691513e54cfca95dcca5daeb547ffd044b4cf8fc9ec085c",
+      "training_state_exists": true
+    },
+    {
+      "group": "size_class_holdout",
+      "run": "CLASS_HOLDOUT_Small_seed11",
+      "checkpoint": "EXTERNAL_INPUT_NOT_BUNDLED",
+      "bytes": 44789131,
+      "sha256": "b4a546c526fcbc4cce98cd8bc89a837884c412d80d88311ad28990a9710459a0",
+      "training_state_exists": true
+    },
+    {
+      "group": "size_class_holdout",
+      "run": "CLASS_HOLDOUT_Small_seed23",
+      "checkpoint": "EXTERNAL_INPUT_NOT_BUNDLED",
+      "bytes": 44789131,
+      "sha256": "e3e88bbd56984d4b4bb36838586b3099a930db724d892cae51b3b934a32897cb",
+      "training_state_exists": true
+    },
+    {
+      "group": "size_class_holdout",
+      "run": "CLASS_HOLDOUT_Small_seed37",
+      "checkpoint": "EXTERNAL_INPUT_NOT_BUNDLED",
+      "bytes": 44789131,
+      "sha256": "3de3f82efde4504ac7bbe8ecc4bb66aaf51e8d3e4ebf0767abf244b4a037e643",
+      "training_state_exists": true
+    }
+  ]
+}

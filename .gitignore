@@ -1,0 +1,15 @@
+# Local outputs and caches
+outputs/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.env
+.DS_Store
+# Licensed photographs and separately distributed weights are external
+external_data/
+external_inputs/
+*.pt
+*.pth
+*.npy
+# Do not ignore publication/generated or frozen data/raw_records

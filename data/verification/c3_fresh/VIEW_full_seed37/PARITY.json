@@ -1,0 +1,28 @@
+{
+  "run": "VIEW_full_seed37",
+  "group": "four_view",
+  "checkpoint_sha256": "77047d6784e4d62efe96ddd4130effa30a569848150f4658f7f0e479d8041f02",
+  "fingerprint": "55e2fc6dff21745c0feeaed1ddf7827e961a2eaefb34c740579f94f725b5e50e",
+  "classes": [
+    "Small",
+    "Medium",
+    "Large"
+  ],
+  "evaluation_rows": 499,
+  "calibration_rows": 83,
+  "frozen_threshold": 0.3871510624885559,
+  "maximum_probability_absolute_error": 2.9731750506023502e-08,
+  "probabilities_outside_tolerance": 0,
+  "grade_mismatches": 0,
+  "referral_mismatches": 0,
+  "calibration_max_error_vs_original_cache": 0.0,
+  "evaluation_bitwise_equal_original_cache": true,
+  "calibration_bitwise_equal_original_cache": true,
+  "pass": true,
+  "calibration_probability_bytes_sha256": "438a974414ed013c2cbe2a0e326dc46a3374b48b5c0a1103cf4d31090bb128fe",
+  "original_calibration_probability_bytes_sha256": "438a974414ed013c2cbe2a0e326dc46a3374b48b5c0a1103cf4d31090bb128fe",
+  "evaluation_probability_bytes_sha256": "a01c9bb4501c12a2ca1f680af6c076183b941fe40050afc763fabc841c56f1f0",
+  "original_evaluation_probability_bytes_sha256": "a01c9bb4501c12a2ca1f680af6c076183b941fe40050afc763fabc841c56f1f0",
+  "source_result_sha256": "574c9421f3b82dcbd4d325547fc0039228909b69da618421bb3747b940b62320",
+  "source_predictions_sha256": "30505ee619ff011fbeaa016a8bb428f6aa81fcdd5784d2a23bb34493441480be"
+}
